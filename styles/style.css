@@ -1,0 +1,81 @@
+#header {
+    font-family: arial, sans-serif;
+    font-size: 14px;
+}
+
+#header a{
+    color: rgb(34, 34, 34);
+    text-decoration: none;
+}
+
+#header a:hover{
+    text-decoration: underline;
+}
+
+#language{
+    font-family: arial, sans-serif;
+    font-size: 13px;
+}
+
+#footer {
+    font-family: arial, sans-serif;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.54);
+    bottom: 0px;
+}
+
+.footer-bar{
+    border-bottom-color: rgb(218, 220, 224);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    background-color: rgb(242, 242, 242);
+}
+
+#footer a{
+    color: rgba(0, 0, 0, 0.54);
+    text-decoration: none;
+}
+
+#footer a:hover{
+    text-decoration: underline;
+}
+
+#search-buttons button{
+    background-color: rgb(248, 249, 250);
+    border: rgb(248, 249, 250) solid 1px;
+    border-radius: 4px;
+    
+    color: rgb(60, 64, 67);
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#search-buttons button:hover{
+    border: rgb(218, 220, 224) solid 1px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 1px 0px;
+}
+
+#flex-main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+#flex-upper{
+    margin: 0 auto;
+}
+
+#flex-lower{
+    margin: 0 auto;
+}
+
+#flex-middle{
+    margin: 0 auto;
+}
+
+.whitespace{
+    flex: 1 1 100px;
+}
+
