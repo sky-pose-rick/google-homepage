@@ -3,15 +3,39 @@
     font-size: 14px;
     display: flex;
     justify-content: space-between;
+    align-content: center;
+    padding: 10px;
 }
 
-#header a{
+#header .header-link{
     color: rgb(34, 34, 34);
     text-decoration: none;
+    padding: 9px 9px;
 }
 
-#header a:hover{
+#header .header-link:hover{
     text-decoration: underline;
+}
+
+#header #signin {
+    background-color: #1a73e8;
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 9px 15px;
+}
+
+#header #header-more{
+    color: rgb(34, 34, 34);
+    text-decoration: none;
+    padding: 9px 9px;
+    position: relative;
+    top: 7px;
+}
+
+#header-left {
+    position: relative;
+    top: 11px;
 }
 
 #language{
@@ -34,15 +58,21 @@
 
     display: flex;
     justify-content: space-between;
+    padding: 15px 15px;
 }
 
 #footer a{
     color: rgba(0, 0, 0, 0.54);
     text-decoration: none;
+    padding: 0px 9px 0px 9px;
 }
 
 #footer a:hover{
     text-decoration: underline;
+}
+
+#footer-loc{
+    padding: 0px 9px 0px 9px;
 }
 
 #search-buttons button{
@@ -70,7 +100,7 @@
 
 body{
     height: 100vh;
-    min-width: 500px;
+    min-width: 430px;
     min-height: 200px;
 }
 
@@ -102,5 +132,8 @@ body{
     outline: none;
     background-color: rgb(170, 170, 170);
 }
+
+
+
 
 
